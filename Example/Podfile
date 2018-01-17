@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'NSSaudacao_Example' do
+  pod 'NSSaudacao', :path => '../'
+
+  target 'NSSaudacao_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
