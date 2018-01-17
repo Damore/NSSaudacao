@@ -1,18 +1,18 @@
 {
   "name": "NSSaudacao",
   "version": "0.1.0",
-  "summary": "A short description of NSSaudacao.",
+  "summary": "Pod de teste para a aula da Quaddro",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/IgorClemente/NSSaudacao",
+  "homepage": "https://github.com/Damore/NSSaudacao",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "IgorClemente": "damore82@hotmail.com"
+    "Damore": "damore82@hotmail.com"
   },
   "source": {
-    "git": "https://github.com/IgorClemente/NSSaudacao.git",
+    "git": "https://github.com/Damore/NSSaudacao.git",
     "tag": "0.1.0"
   },
   "platforms": {

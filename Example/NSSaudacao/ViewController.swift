@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import NSSaudacao
 
 class ViewController: UIViewController {
 
