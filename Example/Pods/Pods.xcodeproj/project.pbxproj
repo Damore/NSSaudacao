@@ -1,0 +1,710 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A37CDEAE2F1EBBEA522B88B86718CF7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		1D9885AA88CAB681CC36FFF99921212D /* Pods-NSSaudacao_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 37395B3177304BE69F4E63F6039427F1 /* Pods-NSSaudacao_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F914ED23CC76AA9CA99A39765B2C2FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		720FDD36FC18C3B8E0457B0DE5EC9FF2 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529694DAB148263DBF202944CA44A13F /* ReplaceMe.swift */; };
+		725FBC2ECE65FA33F7358292751DBE0F /* NSSaudacao-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2837E80496A27C5B78C536E6BE63DE94 /* NSSaudacao-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		853BF1972284B48160AF57287C267850 /* Pods-NSSaudacao_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 866E1FE13849BD77FC061FCA52F384F7 /* Pods-NSSaudacao_Tests-dummy.m */; };
+		B14F3AA06908BEDAF0DB2BFF6CEC6F4E /* Pods-NSSaudacao_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D31285B04914CAE9401D8B1ED406AC8E /* Pods-NSSaudacao_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C33387FF81284429152FC0F46DB19465 /* Pods-NSSaudacao_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB64D91E9A3C4B2F6BDED1CFC69BFBD /* Pods-NSSaudacao_Example-dummy.m */; };
+		E1B0A0C83F94D8251DF16DBE55B63163 /* NSSaudacao-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4892C2942426CF601487712FD348453A /* NSSaudacao-dummy.m */; };
+		F17A0916BB3D642E0EFCDC0AB4CBD648 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B8E786FD5FF833754B9AE24EE637846 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 112E38E1504A36BF1203A027A9D0543E;
+			remoteInfo = NSSaudacao;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		125AAEDDD12D025DCA452E1E33085F92 /* Pods-NSSaudacao_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NSSaudacao_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		1AF11CE25564B99200E6AC31E1AA8CFC /* NSSaudacao-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSSaudacao-prefix.pch"; sourceTree = "<group>"; };
+		1BD363A2FDD55FF68CDCE6046847F677 /* Pods-NSSaudacao_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NSSaudacao_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		2837E80496A27C5B78C536E6BE63DE94 /* NSSaudacao-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSSaudacao-umbrella.h"; sourceTree = "<group>"; };
+		35BB91D5DC1954523F38DB2F0E55163F /* Pods-NSSaudacao_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NSSaudacao_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		35F33030C444FA791959EB14D3172739 /* Pods-NSSaudacao_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-NSSaudacao_Tests.modulemap"; sourceTree = "<group>"; };
+		37395B3177304BE69F4E63F6039427F1 /* Pods-NSSaudacao_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NSSaudacao_Example-umbrella.h"; sourceTree = "<group>"; };
+		3E9557611F681750BCEEC97D0218FE0C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4892C2942426CF601487712FD348453A /* NSSaudacao-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSSaudacao-dummy.m"; sourceTree = "<group>"; };
+		48BAA3984EAAB33ADA3C6D14EE4D7E34 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A9B175A4F476ACD6574F1DA8C6DC6D9 /* Pods-NSSaudacao_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NSSaudacao_Example-resources.sh"; sourceTree = "<group>"; };
+		50001CCA5409F586717397E35C32338E /* Pods_NSSaudacao_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NSSaudacao_Example.framework; path = "Pods-NSSaudacao_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		529694DAB148263DBF202944CA44A13F /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = NSSaudacao/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		61D27BF58C1F17435C852346A0342BBA /* NSSaudacao.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NSSaudacao.framework; path = NSSaudacao.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6A08FA0B8F9FF187CE0F46EA9A90E649 /* Pods-NSSaudacao_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NSSaudacao_Example.release.xcconfig"; sourceTree = "<group>"; };
+		7943D56C10FFDDAC0E39757D63ABE5AB /* Pods-NSSaudacao_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NSSaudacao_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		866E1FE13849BD77FC061FCA52F384F7 /* Pods-NSSaudacao_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NSSaudacao_Tests-dummy.m"; sourceTree = "<group>"; };
+		883346B3F93221E862AD1E2A8369274A /* Pods-NSSaudacao_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NSSaudacao_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		8F0E8FEA4AB2F000E93CF6AF85E66991 /* Pods-NSSaudacao_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NSSaudacao_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		917ABC774B06DA2C7B50A9727E4B0A49 /* NSSaudacao.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = NSSaudacao.modulemap; sourceTree = "<group>"; };
+		933775450B5792AE8FB009F62175527B /* Pods-NSSaudacao_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NSSaudacao_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2B8D3CB1D6A43C5A730CBAF951698A0 /* Pods_NSSaudacao_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NSSaudacao_Tests.framework; path = "Pods-NSSaudacao_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF3C928FE3EEDA2C022267FB149CA63C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D31285B04914CAE9401D8B1ED406AC8E /* Pods-NSSaudacao_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NSSaudacao_Tests-umbrella.h"; sourceTree = "<group>"; };
+		DEB64D91E9A3C4B2F6BDED1CFC69BFBD /* Pods-NSSaudacao_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NSSaudacao_Example-dummy.m"; sourceTree = "<group>"; };
+		E1423E459568905337463F3CF2ED0914 /* Pods-NSSaudacao_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NSSaudacao_Example-frameworks.sh"; sourceTree = "<group>"; };
+		EC79A398B4042526983BA263260D6C3E /* Pods-NSSaudacao_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NSSaudacao_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		EDED2F61D1AE50EE9FCD32519C7B5890 /* Pods-NSSaudacao_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NSSaudacao_Tests-resources.sh"; sourceTree = "<group>"; };
+		F47A5727A9B7189A4F74CFE91A1C3366 /* Pods-NSSaudacao_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-NSSaudacao_Example.modulemap"; sourceTree = "<group>"; };
+		F4E52BD8E3EDB3E9977B6C1FF0181863 /* NSSaudacao.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NSSaudacao.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D0E0D639EB7951F00618D25E39D0B5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A37CDEAE2F1EBBEA522B88B86718CF7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93B630F771229E26C433F8C227B06BAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F17A0916BB3D642E0EFCDC0AB4CBD648 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAD13E89AE891CAEE7A5D0AB2D036D55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F914ED23CC76AA9CA99A39765B2C2FF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F67E733E36F8DED95E36C7B34C73F80 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D822DE9037F2620A4F11F0EB306CD4E3 /* NSSaudacao */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		35FDFEBCF78E05CD6085781C07F5FA76 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF3C928FE3EEDA2C022267FB149CA63C /* Info.plist */,
+				917ABC774B06DA2C7B50A9727E4B0A49 /* NSSaudacao.modulemap */,
+				F4E52BD8E3EDB3E9977B6C1FF0181863 /* NSSaudacao.xcconfig */,
+				4892C2942426CF601487712FD348453A /* NSSaudacao-dummy.m */,
+				1AF11CE25564B99200E6AC31E1AA8CFC /* NSSaudacao-prefix.pch */,
+				2837E80496A27C5B78C536E6BE63DE94 /* NSSaudacao-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/NSSaudacao";
+			sourceTree = "<group>";
+		};
+		4039566D6A4C55C091A15288DAA9229A /* Pods-NSSaudacao_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				48BAA3984EAAB33ADA3C6D14EE4D7E34 /* Info.plist */,
+				35F33030C444FA791959EB14D3172739 /* Pods-NSSaudacao_Tests.modulemap */,
+				7943D56C10FFDDAC0E39757D63ABE5AB /* Pods-NSSaudacao_Tests-acknowledgements.markdown */,
+				933775450B5792AE8FB009F62175527B /* Pods-NSSaudacao_Tests-acknowledgements.plist */,
+				866E1FE13849BD77FC061FCA52F384F7 /* Pods-NSSaudacao_Tests-dummy.m */,
+				1BD363A2FDD55FF68CDCE6046847F677 /* Pods-NSSaudacao_Tests-frameworks.sh */,
+				EDED2F61D1AE50EE9FCD32519C7B5890 /* Pods-NSSaudacao_Tests-resources.sh */,
+				D31285B04914CAE9401D8B1ED406AC8E /* Pods-NSSaudacao_Tests-umbrella.h */,
+				35BB91D5DC1954523F38DB2F0E55163F /* Pods-NSSaudacao_Tests.debug.xcconfig */,
+				EC79A398B4042526983BA263260D6C3E /* Pods-NSSaudacao_Tests.release.xcconfig */,
+			);
+			name = "Pods-NSSaudacao_Tests";
+			path = "Target Support Files/Pods-NSSaudacao_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				1F67E733E36F8DED95E36C7B34C73F80 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				DA5525770B5FACE2CB63E9590837F905 /* Products */,
+				D83A3CD53939263B50C6948865AE87E1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D822DE9037F2620A4F11F0EB306CD4E3 /* NSSaudacao */ = {
+			isa = PBXGroup;
+			children = (
+				529694DAB148263DBF202944CA44A13F /* ReplaceMe.swift */,
+				35FDFEBCF78E05CD6085781C07F5FA76 /* Support Files */,
+			);
+			name = NSSaudacao;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		D83A3CD53939263B50C6948865AE87E1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC53E0ECD30E764FA081AC92DB898235 /* Pods-NSSaudacao_Example */,
+				4039566D6A4C55C091A15288DAA9229A /* Pods-NSSaudacao_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		DA5525770B5FACE2CB63E9590837F905 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61D27BF58C1F17435C852346A0342BBA /* NSSaudacao.framework */,
+				50001CCA5409F586717397E35C32338E /* Pods_NSSaudacao_Example.framework */,
+				A2B8D3CB1D6A43C5A730CBAF951698A0 /* Pods_NSSaudacao_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC53E0ECD30E764FA081AC92DB898235 /* Pods-NSSaudacao_Example */ = {
+			isa = PBXGroup;
+			children = (
+				3E9557611F681750BCEEC97D0218FE0C /* Info.plist */,
+				F47A5727A9B7189A4F74CFE91A1C3366 /* Pods-NSSaudacao_Example.modulemap */,
+				8F0E8FEA4AB2F000E93CF6AF85E66991 /* Pods-NSSaudacao_Example-acknowledgements.markdown */,
+				883346B3F93221E862AD1E2A8369274A /* Pods-NSSaudacao_Example-acknowledgements.plist */,
+				DEB64D91E9A3C4B2F6BDED1CFC69BFBD /* Pods-NSSaudacao_Example-dummy.m */,
+				E1423E459568905337463F3CF2ED0914 /* Pods-NSSaudacao_Example-frameworks.sh */,
+				4A9B175A4F476ACD6574F1DA8C6DC6D9 /* Pods-NSSaudacao_Example-resources.sh */,
+				37395B3177304BE69F4E63F6039427F1 /* Pods-NSSaudacao_Example-umbrella.h */,
+				125AAEDDD12D025DCA452E1E33085F92 /* Pods-NSSaudacao_Example.debug.xcconfig */,
+				6A08FA0B8F9FF187CE0F46EA9A90E649 /* Pods-NSSaudacao_Example.release.xcconfig */,
+			);
+			name = "Pods-NSSaudacao_Example";
+			path = "Target Support Files/Pods-NSSaudacao_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		596E442CB3DE88C33CA2584112E55F3C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B14F3AA06908BEDAF0DB2BFF6CEC6F4E /* Pods-NSSaudacao_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF83566B9AAF9621BA93DD042D367942 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D9885AA88CAB681CC36FFF99921212D /* Pods-NSSaudacao_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D92A9EF07D8BE1735DCDF55F1B689621 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				725FBC2ECE65FA33F7358292751DBE0F /* NSSaudacao-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		112E38E1504A36BF1203A027A9D0543E /* NSSaudacao */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB2F75FE105BE3DE249DD7E49D7C7D87 /* Build configuration list for PBXNativeTarget "NSSaudacao" */;
+			buildPhases = (
+				4E95FB2F87CAA042B38D56D3EB6463F1 /* Sources */,
+				3D0E0D639EB7951F00618D25E39D0B5F /* Frameworks */,
+				D92A9EF07D8BE1735DCDF55F1B689621 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSSaudacao;
+			productName = NSSaudacao;
+			productReference = 61D27BF58C1F17435C852346A0342BBA /* NSSaudacao.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		526CCE8A739600CED7E49BB502EBD93A /* Pods-NSSaudacao_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75A86EED4F54C3A2015F0CBB951BA810 /* Build configuration list for PBXNativeTarget "Pods-NSSaudacao_Tests" */;
+			buildPhases = (
+				5428DB8FCEB2D7E606012EA7A0B61753 /* Sources */,
+				93B630F771229E26C433F8C227B06BAD /* Frameworks */,
+				596E442CB3DE88C33CA2584112E55F3C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-NSSaudacao_Tests";
+			productName = "Pods-NSSaudacao_Tests";
+			productReference = A2B8D3CB1D6A43C5A730CBAF951698A0 /* Pods_NSSaudacao_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		568964D41CED88B2B11BFFB8910FF88B /* Pods-NSSaudacao_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B4AC1223094147FE22214A48ED34ABA /* Build configuration list for PBXNativeTarget "Pods-NSSaudacao_Example" */;
+			buildPhases = (
+				FC230DBE3BA833395450B7B6A59DC487 /* Sources */,
+				AAD13E89AE891CAEE7A5D0AB2D036D55 /* Frameworks */,
+				BF83566B9AAF9621BA93DD042D367942 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20536F9358F53CC6A4D21B860D3FBFE6 /* PBXTargetDependency */,
+			);
+			name = "Pods-NSSaudacao_Example";
+			productName = "Pods-NSSaudacao_Example";
+			productReference = 50001CCA5409F586717397E35C32338E /* Pods_NSSaudacao_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = DA5525770B5FACE2CB63E9590837F905 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				112E38E1504A36BF1203A027A9D0543E /* NSSaudacao */,
+				568964D41CED88B2B11BFFB8910FF88B /* Pods-NSSaudacao_Example */,
+				526CCE8A739600CED7E49BB502EBD93A /* Pods-NSSaudacao_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E95FB2F87CAA042B38D56D3EB6463F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1B0A0C83F94D8251DF16DBE55B63163 /* NSSaudacao-dummy.m in Sources */,
+				720FDD36FC18C3B8E0457B0DE5EC9FF2 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5428DB8FCEB2D7E606012EA7A0B61753 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				853BF1972284B48160AF57287C267850 /* Pods-NSSaudacao_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC230DBE3BA833395450B7B6A59DC487 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C33387FF81284429152FC0F46DB19465 /* Pods-NSSaudacao_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		20536F9358F53CC6A4D21B860D3FBFE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NSSaudacao;
+			target = 112E38E1504A36BF1203A027A9D0543E /* NSSaudacao */;
+			targetProxy = 3B8E786FD5FF833754B9AE24EE637846 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		380E967DCF10DA408A767901B06180D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4E52BD8E3EDB3E9977B6C1FF0181863 /* NSSaudacao.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NSSaudacao/NSSaudacao-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NSSaudacao/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NSSaudacao/NSSaudacao.modulemap";
+				PRODUCT_NAME = NSSaudacao;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		40908AAFCDB63DFF931EB1CFFCD7AFC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35BB91D5DC1954523F38DB2F0E55163F /* Pods-NSSaudacao_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NSSaudacao_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NSSaudacao_Tests/Pods-NSSaudacao_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NSSaudacao_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		40DF73E348400191841ECDDD7153494C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 125AAEDDD12D025DCA452E1E33085F92 /* Pods-NSSaudacao_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NSSaudacao_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NSSaudacao_Example/Pods-NSSaudacao_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NSSaudacao_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		56F51B8BBFAF1A7FAE961507A77979AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC79A398B4042526983BA263260D6C3E /* Pods-NSSaudacao_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NSSaudacao_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NSSaudacao_Tests/Pods-NSSaudacao_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NSSaudacao_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7AED7E5F980C317276E509D967782C95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A08FA0B8F9FF187CE0F46EA9A90E649 /* Pods-NSSaudacao_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NSSaudacao_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NSSaudacao_Example/Pods-NSSaudacao_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NSSaudacao_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EA5955E66EDD22039C4EE3648C8F4CF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4E52BD8E3EDB3E9977B6C1FF0181863 /* NSSaudacao.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NSSaudacao/NSSaudacao-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NSSaudacao/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NSSaudacao/NSSaudacao.modulemap";
+				PRODUCT_NAME = NSSaudacao;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
+				731DC216E1A58545B559F6E0A2418060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B4AC1223094147FE22214A48ED34ABA /* Build configuration list for PBXNativeTarget "Pods-NSSaudacao_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40DF73E348400191841ECDDD7153494C /* Debug */,
+				7AED7E5F980C317276E509D967782C95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75A86EED4F54C3A2015F0CBB951BA810 /* Build configuration list for PBXNativeTarget "Pods-NSSaudacao_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40908AAFCDB63DFF931EB1CFFCD7AFC9 /* Debug */,
+				56F51B8BBFAF1A7FAE961507A77979AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB2F75FE105BE3DE249DD7E49D7C7D87 /* Build configuration list for PBXNativeTarget "NSSaudacao" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA5955E66EDD22039C4EE3648C8F4CF3 /* Debug */,
+				380E967DCF10DA408A767901B06180D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

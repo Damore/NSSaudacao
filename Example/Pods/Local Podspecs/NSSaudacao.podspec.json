@@ -1,0 +1,22 @@
+{
+  "name": "NSSaudacao",
+  "version": "0.1.0",
+  "summary": "A short description of NSSaudacao.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/IgorClemente/NSSaudacao",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "IgorClemente": "damore82@hotmail.com"
+  },
+  "source": {
+    "git": "https://github.com/IgorClemente/NSSaudacao.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "NSSaudacao/Classes/**/*"
+}
